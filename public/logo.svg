@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" fill="none">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <!-- Sci-Fi Icon -->
+  <g transform="translate(10, 5)">
+    <circle cx="25" cy="25" r="22" stroke="url(#logoGrad)" stroke-width="3" stroke-dasharray="90 20" />
+    <path d="M25 5 L37 25 L25 45 L13 25 Z" fill="url(#logoGrad)" />
+    <circle cx="25" cy="25" r="7" fill="#07080c" />
+    <circle cx="25" cy="25" r="4" fill="#06b6d4" />
+  </g>
+  <!-- Brand Text -->
+  <text x="70" y="38" font-family="'Outfit', sans-serif" font-weight="800" font-size="28" fill="#ffffff" letter-spacing="1">FOVEA <tspan fill="url(#logoGrad)">IT</tspan></text>
+  <text x="70" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#a1a1aa" letter-spacing="2">SMART VISION &bull; INTELLIGENT SOLUTIONS</text>
+</svg>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  <!-- Fovea IT 6 Months Milestone -->
+  <url>
+    <loc>https://foveait.com/news/fovea-it-6-months-milestone</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Fovea IT Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-01</news:publication_date>
+      <news:title>Celebrating 6 Months of Fovea IT: Empowering 50+ Partners Across Nepal</news:title>
+      <news:keywords>Fovea IT, Kathmandu, Nepal Tech, Software Company, Milestone</news:keywords>
+    </news:news>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Why Flutter for Mobile Apps -->
+  <url>
+    <loc>https://foveait.com/news/why-we-choose-flutter-for-mobile-apps</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Fovea IT Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24</news:publication_date>
+      <news:title>Why Flutter is Our Go-To Framework for Cross-Platform Mobile Development</news:title>
+      <news:keywords>Flutter, Dart, Mobile Apps, iOS, Android, Nepal</news:keywords>
+    </news:news>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Building Backends with Django -->
+  <url>
+    <loc>https://foveait.com/news/building-robust-backends-with-django</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Fovea IT Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-15</news:publication_date>
+      <news:title>Building Scalable, Secure Backends with Python &amp; Django</news:title>
+      <news:keywords>Django, Python, Web Backend, REST API, Database</news:keywords>
+    </news:news>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Digital Marketing in Nepal -->
+  <url>
+    <loc>https://foveait.com/news/digital-marketing-strategies-for-nepalese-businesses</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Fovea IT Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Digital Marketing in Nepal: High-ROI Strategies for 2026</news:title>
+      <news:keywords>Digital Marketing, SEO, Google Ads, Social Media, Nepal Business</news:keywords>
+    </news:news>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- CourierYatra Case Insight -->
+  <url>
+    <loc>https://foveait.com/news/courieryatra-logistics-tech-case-insight</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Fovea IT Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-10</news:publication_date>
+      <news:title>Behind the Tech: Engineering the CourierYatra Shipping Platform</news:title>
+      <news:keywords>Case Study, CourierYatra, Logistics, Web App, Nepal</news:keywords>
+    </news:news>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

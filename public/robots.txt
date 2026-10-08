@@ -1,0 +1,92 @@
+# ============================================================
+# robots.txt — Fovea IT (https://foveait.com)
+# Updated: 2026-10-01
+# ============================================================
+
+# ── Default: Allow all well-behaved crawlers ─────────────────
+User-agent: *
+Allow: /
+
+# Block private / admin paths (none currently, reserved)
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /api/
+Disallow: /*.json$
+
+# Prevent duplicate content from query strings (pagination, filters)
+Disallow: /*?*page=
+Disallow: /*?*filter=
+Disallow: /*?*sort=
+Disallow: /*?*q=
+
+# Crawl-delay for generic bots (seconds)
+Crawl-delay: 2
+
+# ── Google ─────────────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /assets/temp/
+
+User-agent: Googlebot-News
+Allow: /news/
+
+# ── Bing / Microsoft ──────────────────────────────────────────
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# ── DuckDuckGo ───────────────────────────────────────────────
+User-agent: DuckDuckBot
+Allow: /
+
+# ── Yahoo / Slurp ────────────────────────────────────────────
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# ── AI Crawlers (allow indexing, your content is public) ──────
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Perplexitybot
+Allow: /
+
+# ── Bad bots / scrapers ───────────────────────────────────────
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# ── Sitemaps ──────────────────────────────────────────────────
+Sitemap: https://foveait.com/sitemap.xml
+Sitemap: https://foveait.com/sitemap-pages.xml
+Sitemap: https://foveait.com/sitemap-services.xml
+Sitemap: https://foveait.com/sitemap-projects.xml
+Sitemap: https://foveait.com/sitemap-news.xml
+
+# ── Canonical Host ────────────────────────────────────────────
+Host: https://foveait.com
